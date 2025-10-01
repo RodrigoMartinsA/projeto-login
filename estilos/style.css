@@ -94,14 +94,14 @@ div.campo > span {
 div.campo > input {
     background-color: #94cfcd;
     font-size: 1em;
-    Width: calc(100% - 44px); /* faz o calculo para adicionar o background exatamente no fundo lilás */
+    Width: calc(100% - 45px); /* faz o calculo para adicionar o background exatamente no fundo lilás */
     
     /* SEMPRE COLOCAR O TRANSFORM NO FINAL */
     height: 100%;
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translate(44px, -42px);
+    transform: translateY(-10px);
 }
 
 div.campo > input:focus-within { /* Faz o funco todo ficar branco com o background */
